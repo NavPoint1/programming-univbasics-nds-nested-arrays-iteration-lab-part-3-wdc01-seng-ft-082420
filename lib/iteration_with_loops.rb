@@ -6,7 +6,7 @@ def join_nested_strings(src)
   
   src.length.times { |i|
     src[i].length.times { |j|
-      if !src[i][j] / 2
+      if src[i][j].string?
         array << src[i][j]
       end
     }
