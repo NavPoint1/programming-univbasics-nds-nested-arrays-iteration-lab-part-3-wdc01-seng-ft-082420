@@ -11,5 +11,5 @@ def join_nested_strings(src)
       end
     }
   }
-  array
+  array.join
 end
